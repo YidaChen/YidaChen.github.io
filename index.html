@@ -1,41 +1,32 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="en">
 <head>
-    <title>Yida Chen</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/onepage-scroll.css">
-    <link rel="stylesheet" href="css/style.css">
-
+    <title>Yida Chen</title>
+    <link rel="stylesheet" href="menu/menu.css">
 </head>
 <body>
-     <div class="main">
-    <section id="me">
-        <div id="left">
-        <img src="" alt="">
-        <h2>Yida Chen</h2>
-        </div>
-        <article id="right"></article>
-    </section>
-    <section id="tool">2</section>
-    <section id="work">3</section>
-    <section id="contact">4</section>
+<div id="button" class="button">
+    <div></div>
+    <div></div>
+    <div></div>
   </div>
-    <script src="js/jquery-2.1.1.min.js"></script>
-    <script src="js/jquery.onepage-scroll.js"></script>
-    <script src="js/main.js"></script> 
-    <script>$(".main").onepage_scroll({
-   sectionContainer: "section",
-   easing: "ease",
-   animationTime: 1000,
-   pagination: true,
-   updateURL: false,
-   beforeMove: function(index) {},
-   afterMove: function(index) {},
-   loop: false,
-   keyboard: true,
-   responsiveFallback: false,
-   direction: "vertical"
-});</script>   
+  <div id="menu" class="none">
+    <nav>
+      <ul>
+        <li class="menu-item">
+          <a href="./animateName" class="link">名字泡泡動畫</a>
+        </li>
+        <li class="menu-item">
+          <a href="./jquerySlider" class="link">圖片輪播</a>
+        </li>
+        <li class="menu-item">
+          <a href="./navigation" class="link">樓層定位導航</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div id="shadow" class="none"></div>
+<script type="text/javascript" src="menu/menu.js"></script>
 </body>
 </html>
