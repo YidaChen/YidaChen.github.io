@@ -1,0 +1,71 @@
+body {
+    background-image: url("../images/portal2/floor.jpg");
+    font-family: "Microsoft JhengHei";
+}
+header img {
+    width: 100%;
+    position: relative;
+    top: -30px;
+}
+#intro {
+    border-bottom: 5px solid orange;
+}
+#intro ul li {
+    width: 25%;
+    text-align: center;
+}
+.nav-tabs{
+  background-color:rgba(48, 49, 54, 0.8);
+  border-top-right-radius:2em;
+    border-top-left-radius:2em;
+}
+.tab-content{
+    background-color:rgba(22, 22, 22, 1);
+    color: #DEDEDE;
+    padding: 10px 15px;
+}
+.tab-content a {
+    color: #00B5F0;
+}
+.nav-tabs > li > a{
+  border: medium none;
+  color: #ECECEC;
+}
+.nav-tabs > li > a:hover{
+  background-color: #303136 !important;
+    border: medium none;
+    border-radius: 0;
+    color:#00CCFF;
+    border-top-right-radius:2em;
+    border-top-left-radius:2em;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover{
+    background-color: #161616 !important;
+    color:#4FDCFF;
+    border-top-right-radius:2em;
+    border-top-left-radius:2em;
+}
+#game {
+     background-image: url("../images/portal2/wall.jpg");
+     width: 100%;
+     height: 400px;
+     border: 10px inset gray;
+     margin: 100px 0 50px 0;
+}
+.portal {
+    width: 80px;
+    height: 100px;
+    border: 10px solid #00CCFF;
+    border-radius: 50px;
+    visibility: hidden;
+}
+#orangePortal {
+    border: 10px solid #FFCC00;
+}
+#chell {
+    height: 90px;
+    position: relative;
+    left: 100px;
+}

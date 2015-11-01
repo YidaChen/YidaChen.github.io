@@ -1,0 +1,120 @@
+body {
+    background: url('../images/brick_wall.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Microsoft JhengHei";
+}
+header {
+    padding: 10px 0 0 0;
+}
+header > h1,header > h3 {
+    text-align: center;
+    color: white;
+}
+nav {
+    background: white;
+    text-align: center;
+    opacity: 0.86;
+}
+nav ul a:hover li {
+    background: gray;
+    color: white;
+}
+nav ul li {
+    display: inline-block;
+    font-size: 30px;
+    color: gray;
+    padding: 25px 30px;
+}
+section {
+    border-radius: 30px;
+    background: white;
+    opacity: 0.86;
+    margin: 30px 10px;
+    padding: 10px 30px 30px 30px;
+
+}
+section h2,section h3,section p,section li,section a {
+    color: #3E1F00;
+}
+#video {
+    text-align: center;
+}
+#introduction h2 {
+    text-align: center;
+}
+#game > h2,#game > h3 {
+    text-align: center;
+}
+#board {
+    height: 42vw;
+    width:  42vw;
+    background: gray;
+    margin: 0px auto;
+    position: relative;
+}
+.drag {
+    position: absolute;
+    border: 3px solid;
+    background: #CC6600;
+    box-sizing: border-box;
+}
+#drag1 {
+    height: 7vw;
+    width:  14vw;
+    top: 14vw;
+    right: 28vw;
+    background: #CC0000;
+}
+#drag2 {
+    height: 7vw;
+    width:  21vw;
+    top: 0vw;
+    left: 14vw;
+}
+#drag3 {
+    height: 21vw;
+    width:  7vw;
+    top: 0vw;
+    left: 35vw;
+}
+#drag4 {
+    height: 21vw;
+    width:  7vw;
+    top: 14vw;
+    left: 14vw;
+}
+#drag5 {
+    height: 7vw;
+    width:  14vw;
+    top: 21vw;
+    left: 28vw;
+}
+#drag6 {
+    height: 14vw;
+    width:  7vw;
+    top: 28vw;
+    left: 0vw;
+}
+#drag7 {
+    height: 7vw;
+    width:  21vw;
+    top: 35vw;
+    left: 7vw;
+}
+#drag8 {
+    height: 14vw;
+    width:  7vw;
+    top: 28vw;
+    left: 28vw;
+}
+#exit {
+    position: absolute;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    box-sizing: border-box;
+    height: 7vw;
+    width:  14vw;
+    top: 14vw;
+    left: 42vw;
+    text-align: center;
+}

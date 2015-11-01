@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unblock Me FREE</title>
+  <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+  <link rel="stylesheet" type="text/css" href="styles/unblockme.css">
+  <link rel="stylesheet" type="text/css" href="styles/jquery-ui.min.css">
+</head>
+<body>
+    <header>
+    <h1>益智遊戲 ─ Unblock Me FREE</h1>
+    <h3>分類: Puzzle/Board | 價錢: 免費 | 公司: Kiragames</h3>
+    </header>
+    <nav>
+        <ul>
+            <a href="#"><li>回首頁</li></a>
+            <a href="#video"><li>遊玩影片</li></a>
+            <a href="#introduction"><li>簡介</li></a>
+            <a href="#game"><li>開始玩</li></a>
+        </ul>
+    </nav>
+    <section id="video"><h2>遊玩影片</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/fKMbm-KZaFU" frameborder="0" allowfullscreen></iframe>
+    </section>
+    <section id="introduction">
+    <h2>簡介</h2>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unblock Me FREE 拼圖遊戲，玩法簡單，保證令人愛不釋手。遊戲目的就是為紅色積木移除障礙。透過移動其他積木，騰出足夠的空間，讓紅色的積木得以通過木板的出口，當然，儘可能以最少的移動次數來移除障礙為佳。Unblock Me FREE 設有四種遊戲難度，由新手到專業玩家程度，總共包括 14,500款不同的拼圖組合，數量之多是其他遊戲所不能媲美的，即使玩上數百小時，你也不會感到沉悶。
+Unblock Me FREE 設有兩個遊戲模式，挑戰模式讓你可挑戰自己的腦筋，而選擇休閒模式的話，你便可躺下來放鬆慢慢破解拼圖之迷。在挑戰模式中，每一個拼圖你最多可賺取三顆星星，加入了重玩選項後，你便可嘗試於每個拼圖都取得三顆星星，此外，還加入了排名機制及成就獎項，讓你玩起來更刺激投入。
+
+很多學校已使用Unblock Me FREE，用來提高學生的學習能力。Unblock Me FREE 有助訓練腦筋，令你頭腦更靈活。Unblock Me FREE 於過去五年一直是最熱門的免費遊戲之一，並因此新增了一個名為「移除障礙拼圖遊戲」的類別，其他遊戲紛紛倣傚。本拼圖遊戲適合不同年齡的人仕，包括兒童及成年人，你可不斷自我挑戰，令自已更上一層樓，或跟朋友來個比賽，並切磋移動步法的心得。快來跟朋友玩個痛快吧:)</p>
+    <hr>
+    <p>特點:</p>
+    <ul>
+        <li>Transfer data(Game Progress) between devices</li>
+        <li>設有四種遊戲難度，由新手到專業玩家程度</li>
+        <li>總共包括 14,500 拼圖組合等你挑戰，相信你要花上一段頗長的時間，才能完成所有拼圖</li>
+        <li>設有兩個遊戲模式，分別是休閒模式及挑戰模式</li>
+        <li>設有排名機制，玩起來更刺激，使你更投入找出最佳破解方法</li>
+        <li>設有21個成就獎，盡你所能集齊所有獎項吧</li>
+        <li>會將所有你已破解的拼圖紀錄下來</li>
+        <li>設有提示系統，可引導你破解拼圖遊戲</li>
+        <li>設有應用程式內購買功能，你可根據需要購買更多提示</li>
+        <li>設有復原系統</li>
+        <li>帶給你無限歡樂! 已累積超過數百萬個下載，這個拼圖遊戲保證令你愛不釋手</li>
+    </ul>
+    <a href="https://play.google.com/store/apps/details?id=com.kiragames.unblockmefree&hl=zh_TW" target="_blank">介紹內容取自Google Play頁面</a>
+    </section>
+    <section id="game">
+    <h2>第一關</h2>
+    <h2>請拖動方塊，使紅色到達出口</h2>
+    <h3>移動次數 <span id="event-stop">0</span></h3>
+    <p style="float:right">(暫時無法偵測碰撞)</p>
+    <div id="board">
+        <div class="drag butNotHere" id="drag1"></div>
+        <div class="drag butNotHere" id="drag2"></div>
+        <div class="drag butNotHere" id="drag3"></div>
+        <div class="drag butNotHere" id="drag4"></div>
+        <div class="drag butNotHere" id="drag5"></div>
+        <div class="drag butNotHere" id="drag6"></div>
+        <div class="drag butNotHere" id="drag7"></div>
+        <div class="drag butNotHere" id="drag8"></div>
+        <div id='exit'><h2>出口</h2></div>
+    </div>
+    </section>
+
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/unblockme.js"></script>
+</body>
+</html>
